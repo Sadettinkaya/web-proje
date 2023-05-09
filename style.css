@@ -1,40 +1,15 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-
-.container{
-    padding-left: 7%;
-    padding-right: 7%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./resim/fethiye.jpg);
-    height: 100vh;
+.arkaplan{
+    background-image:url(resim/fethiye.jpg) ;
+    background-size:cover;
     background-position: center;
-    background-size: cover;
-
-}
-
-
-.navbar{
-    height: 12%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 1453px;
+    height: 800px;
+    text-align: center;
     
 }
-nav ul{
-    list-style: none;
-    display: flex;
-    column-gap: 20px ;
-}
 
-nav ul li a{
-    color: #fff;
-   text-decoration: none;
-}
-nav ul li a:hover{
-    color: #000;
-   text-decoration: none;
+.navbar-brand{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
 }
